@@ -1,6 +1,14 @@
+/*--#main {
+  position: relative;
+}--*/
+
 #div-btn-new {
-  position: absolute;
+  position: sticky;
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+#btn-new {
+  float: right;
 }
