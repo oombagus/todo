@@ -1,9 +1,14 @@
-
-#div-btn-new {
-  display: flex;
-  flex-direction: column;
+.trash-ico {
+  float: right;
+  font-size: 1rem;
 }
 
-#btn-new {
-  float: right;
+.home-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.done {
+  text-decoration: line-through;
 }
