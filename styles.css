@@ -1,5 +1,4 @@
 .trash-ico {
-  float: right;
   font-size: 1rem;
 }
 
@@ -11,4 +10,18 @@
 
 .done {
   text-decoration: line-through;
+}
+
+.list-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-li {
+  display: flex;
+  width: 100%;
+}
+
+.list-text {
+  flex-grow: 11;
 }
