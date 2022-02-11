@@ -24,4 +24,5 @@
 
 .list-text {
   flex-grow: 11;
+  word-break: break-word;
 }
