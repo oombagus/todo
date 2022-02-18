@@ -17,7 +17,7 @@ function clearTextbox() {
 function create() {
   // add new list to ul
   if (newList.value != "") {
-    let listText = "<div class='list-li'><div class='home-list list-text px-1' onclick='toggle(this)'>" + newList.value + "</div><div onclick='removeList(this)' class='bi-trash trash-ico list-del'></div></div>";
+    let listText = `<div class='list-li'><div class='home-list list-text px-1' onclick='toggle(this)'> ${newList.value} </div><div onclick='removeList(this)' class='bi-trash trash-ico list-del'></div></div>`;
     homeList.insertAdjacentHTML("afterbegin", listText);
     clearTextbox();
   }
